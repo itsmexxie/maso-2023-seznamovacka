@@ -1,0 +1,37 @@
+h1, .display-medium {
+	margin: 0;
+	font-family: var(--md-sys-typescale-display-medium-font);
+	font-size: var(--md-sys-typescale-display-medium-size);
+	font-weight: var(--md-sys-typescale-display-medium-weight);
+	line-height: var(--md-sys-typescale-display-medium-line-height);
+}
+
+h2, .headline-medium {
+	margin: 0;
+	font-family: var(--md-sys-typescale-headline-medium-font);
+	font-size: var(--md-sys-typescale-headline-medium-size);
+	font-weight: var(--md-sys-typescale-headline-medium-weight);
+	line-height: var(--md-sys-typescale-headline-medium-line-height);
+}
+
+h3, .title-medium {
+	margin: 0;
+	font-family: var(--md-sys-typescale-title-medium-font);
+	font-size: var(--md-sys-typescale-title-medium-size);
+	font-weight: var(--md-sys-typescale-title-medium-weight);
+	line-height: var(--md-sys-typescale-title-medium-line-height);
+}
+
+p, .body-medium {
+	font-family: var(--md-sys-typescale-body-medium-font);
+	font-size: var(--md-sys-typescale-body-medium-size);
+	font-weight: var(--md-sys-typescale-body-medium-weight);
+	line-height: var(--md-sys-typescale-body-medium-line-height);
+}
+
+.label-medium {
+	font-family: var(--md-sys-typescale-label-medium-font);
+	font-size: var(--md-sys-typescale-label-medium-size);
+	font-weight: var(--md-sys-typescale-label-medium-weight);
+	line-height: var(--md-sys-typescale-label-medium-line-height);
+}

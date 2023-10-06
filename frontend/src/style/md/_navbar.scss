@@ -1,0 +1,21 @@
+.navbar {
+	flex: 0 0 60px;
+	width: 100vw;
+	height: 64px;
+	padding: 0 16px;
+	background: var(--md-sys-color-surface-container);
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.navbar > .navbar-title {
+	line-height: 28px;
+	font-size: 22px;
+}
+
+.navbar > .navbar-leading-icon {
+	height: auto;
+	margin-right: 16px;
+	color: var(--md-sys-color-on-surface);
+}
