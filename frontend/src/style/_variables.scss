@@ -34,22 +34,14 @@
 }
 
 body.theme-light {
-	--md-sys-color-primary: hsla(257, 97.2%, 57.3%, 1);
+	--md-sys-color-primary: hsl(50, 100%, 22%);
 	--md-sys-color-on-primary: hsla(0, 0%, 100%, 1);
-	--md-sys-color-primary-container: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-primary-container: hsla(259, 100%, 19%, 1);
-	--md-sys-color-primary-fixed: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-primary-fixed: hsla(259, 100%, 19%, 1);
-	--md-sys-color-primary-fixed-dim: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-primary-fixed-variant: hsla(261, 100%, 41.6%, 1);
-	--md-sys-color-secondary: hsla(252, 34.4%, 48.4%, 1);
-	--md-sys-color-on-secondary: hsla(0, 0%, 100%, 1);
-	--md-sys-color-secondary-container: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-secondary-container: hsla(258, 97.9%, 19%, 1);
-	--md-sys-color-secondary-fixed: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-secondary-fixed: hsla(258, 97.9%, 19%, 1);
-	--md-sys-color-secondary-fixed-dim: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-secondary-fixed-variant: hsla(252, 42.1%, 38.6%, 1);
+	--md-sys-color-primary-container: #ffe172;
+	--md-sys-color-on-primary-container: #221b00;
+	--md-sys-color-secondary: #675e40;
+	--md-sys-color-on-secondary: #ffffff;
+	--md-sys-color-secondary-container: #efe2bc;
+	--md-sys-color-on-secondary-container: #211b04;
 	--md-sys-color-info: hsla(209, 100%, 35.5%, 1);
 	--md-sys-color-on-info: hsla(0, 0%, 100%, 1);
 	--md-sys-color-info-container: hsla(221, 100%, 92%, 1);
@@ -62,12 +54,12 @@ body.theme-light {
 	--md-sys-color-on-warning: hsla(0, 0%, 100%, 1);
 	--md-sys-color-warning-container: hsla(34, 100%, 84.5%, 1);
 	--md-sys-color-on-warning-container: hsla(35, 100%, 8%, 1);
-	--md-sys-color-error: hsla(359, 100%, 37.6%, 1);
+	--md-sys-color-error: hsl(359, 100%, 38%);
 	--md-sys-color-on-error: hsla(0, 0%, 100%, 1);
 	--md-sys-color-error-container: hsla(7, 100%, 91.8%, 1);
 	--md-sys-color-on-error-container: hsla(0, 100%, 12.7%, 1);
 	--md-sys-color-surface: hsla(300, 55.6%, 98.2%, 1);
-	--md-sys-color-on-surface: hsla(255, 6.9%, 11.4%, 1);
+	--md-sys-color-on-surface: hsla(255, 7%, 11%, 1);
 	--md-sys-color-surface-variant: hsla(270, 24%, 90.2%, 1);
 	--md-sys-color-on-surface-variant: hsla(260, 6.1%, 28.8%, 1);
 	--md-sys-color-surface-dim: hsla(300, 5.6%, 85.9%, 1);
@@ -90,22 +82,14 @@ body.theme-light {
 }
 
 body.theme-dark {
-	--md-sys-color-primary: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-primary: hsla(261, 100%, 29.8%, 1);
-	--md-sys-color-primary-container: hsla(261, 100%, 41.6%, 1);
-	--md-sys-color-on-primary-container: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-primary-fixed: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-primary-fixed: hsla(259, 100%, 19%, 1);
-	--md-sys-color-primary-fixed-dim: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-primary-fixed-variant: hsla(261, 100%, 41.6%, 1);
-	--md-sys-color-secondary: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-secondary: hsla(254, 56.8%, 29%, 1);
-	--md-sys-color-secondary-container: hsla(252, 42.1%, 38.6%, 1);
-	--md-sys-color-on-secondary-container: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-secondary-fixed: hsla(256, 100%, 93.5%, 1);
-	--md-sys-color-on-secondary-fixed: hsla(258, 97.9%, 19%, 1);
-	--md-sys-color-secondary-fixed-dim: hsla(252, 100%, 87.3%, 1);
-	--md-sys-color-on-secondary-fixed-variant: hsla(252, 42.1%, 38.6%, 1);
+	--md-sys-color-primary: #e4c54a;
+	--md-sys-color-on-primary: #3b2f00;
+	--md-sys-color-primary-container: #554600;
+	--md-sys-color-on-primary-container: #ffe172;
+	--md-sys-color-secondary: #d2c6a1;
+	--md-sys-color-on-secondary: #373016;
+	--md-sys-color-secondary-container: #4f462a;
+	--md-sys-color-on-secondary-container: #efe2bc;
 	--md-sys-color-info: hsla(218, 100%, 82.9%, 1);
 	--md-sys-color-on-info: hsla(211, 100%, 19.2%, 1);
 	--md-sys-color-info-container: hsla(210, 100%, 27.3%, 1);

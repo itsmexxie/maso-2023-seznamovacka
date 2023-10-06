@@ -1,4 +1,5 @@
 {
+	"startTime": 54000,
 	"games": [
 		"Squid Game",
 		"Skládání Písmenek",
@@ -11,10 +12,45 @@
 	"locations": [
 		"Újezd - Alej obětí totality",
 		"Kampa - Socha sedící dívky",
-		"Na Kampě - ",
-		"",
-		"",
-		"",
-		""
+		"Na Kampě - Červená Sedma",
+		"Park Cihelná - Fontána",
+		"Valdštejnská Zahrada",
+		"Malostranské Nám - Sloup Nejsv. Trojice",
+		"Helichova - Pítko"
+	],
+	"routes": [
+		[0, 1, 2, 3, 4, 5, 6],
+		[1, 2, 3, 4, 5, 6, 0],
+		[2, 3, 4, 5, 6, 0, 1],
+		[3, 4, 5, 6, 0, 1, 2],
+		[4, 5, 6, 0, 1, 2, 3],
+		[5, 6, 0, 1, 2, 3, 4],
+		[6, 0, 1, 2, 3, 4, 5],
+		[6, 5, 4, 3, 2, 1, 0],
+		[5, 4, 3, 2, 1, 0, 6],
+		[4, 3, 2, 1, 0, 6, 5],
+		[3, 2, 1, 0, 6, 5, 4],
+		[2, 1, 0, 6, 5, 4, 3],
+		[1, 0, 6, 5, 4, 3, 2],
+		[0, 6, 5, 4, 3, 2, 1]
+	],
+	"maps": [
+		{
+			"route": "https://mapy.cz/s/famevumaru",
+			"embed": "https://frame.mapy.cz/s/bomarobojo"
+		},
+		{ "route": "https://mapy.cz/s/cemajemezo", "embed": "" },
+		{ "route": "https://mapy.cz/s/kezusonepo", "embed": "" },
+		{ "route": "https://mapy.cz/s/lenojehufa", "embed": "" },
+		{ "route": "https://mapy.cz/s/jabunupama", "embed": "" },
+		{ "route": "https://mapy.cz/s/luhemabega", "embed": "" },
+		{ "route": "https://mapy.cz/s/kugocukato", "embed": "" },
+		{ "route": "https://mapy.cz/s/kohadukoza", "embed": "" },
+		{ "route": "https://mapy.cz/s/kohobogovu", "embed": "" },
+		{ "route": "https://mapy.cz/s/ramupabeje", "embed": "" },
+		{ "route": "https://mapy.cz/s/ponotetalo", "embed": "" },
+		{ "route": "https://mapy.cz/s/gamejadazo", "embed": "" },
+		{ "route": "https://mapy.cz/s/dupacezaco", "embed": "" },
+		{ "route": "https://mapy.cz/s/bojaterogu", "embed": "" }
 	]
 }

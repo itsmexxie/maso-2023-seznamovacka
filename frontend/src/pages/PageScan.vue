@@ -1,35 +1,42 @@
 <template>
-	<div class="navbar">
-		<md-icon-button class="navbar-leading-icon" @click="navigateBack()">
-			<md-icon>arrow_back</md-icon>
-		</md-icon-button>
-		<h2 class="navbar-title">{{ useRoute().meta.title }}</h2>
-	</div>
+	<TopAppBar :enable-back="true" @navigation="closeScanner()"></TopAppBar>
 	<div class="content">
 		<div id="qr-code-scanner"></div>
 	</div>
 </template>
 
 <script setup lang="ts">
-import "@material/web/iconbutton/icon-button";
-import { Html5QrcodeScanner } from "html5-qrcode";
-import { useRoute } from 'vue-router';
-import router from "../router";
 import { onMounted } from "vue";
+import { Html5QrcodeScanner } from "html5-qrcode";
+import { parseQrCode } from "../scripts/qrCodeParser";
+import router from "../router";
+import TopAppBar from "../components/TopAppBar.vue";
 
 let qrCodeScanner: Html5QrcodeScanner;
 
-function navigateBack() {
+function scanSuccessCallback(text: string) {
+	let qrCode = parseQrCode(text);
+
+	switch (qrCode.type) {
+		case "login":
+			localStorage.setItem("MASO_TEAM_ID", qrCode.data);
+			break;
+
+		case "task":
+			break;
+
+		default:
+			break;
+	}
+
+	qrCodeScanner.clear();
+	router.push("/");
+}
+
+function closeScanner() {
 	if (qrCodeScanner) {
 		qrCodeScanner.clear();
 	}
-	router.back();
-}
-
-function scanSuccessCallback(text: string) {
-	console.log(text);
-	qrCodeScanner.clear();
-	router.push("/");
 }
 
 onMounted(() => {
