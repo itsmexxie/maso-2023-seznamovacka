@@ -1,6 +1,6 @@
 <template>
 	<div class="top-app-bar">
-		<md-icon-button v-if="enableBack" class="leading-icon" @click="navigateBack()">
+		<md-icon-button v-if="enableBack" class="leading-icon" @click="navigateHome()">
 			<md-icon>arrow_back</md-icon>
 		</md-icon-button>
 		<h2 class="title">{{ useRoute().meta.title }}</h2>
@@ -21,9 +21,9 @@ defineProps({
 
 const emit = defineEmits(["navigation"]);
 
-function navigateBack() {
+function navigateHome() {
 	emit("navigation");
-	router.back();
+	router.push("/");
 }
 
 function switchThemes() {

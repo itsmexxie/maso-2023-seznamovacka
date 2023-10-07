@@ -1,5 +1,5 @@
 interface QRCode {
-	type: "login" | "task",
+	type: "login" | "game",
 	data: string
 }
 

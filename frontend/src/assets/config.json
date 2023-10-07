@@ -39,18 +39,57 @@
 			"route": "https://mapy.cz/s/famevumaru",
 			"embed": "https://frame.mapy.cz/s/bomarobojo"
 		},
-		{ "route": "https://mapy.cz/s/cemajemezo", "embed": "" },
-		{ "route": "https://mapy.cz/s/kezusonepo", "embed": "" },
-		{ "route": "https://mapy.cz/s/lenojehufa", "embed": "" },
-		{ "route": "https://mapy.cz/s/jabunupama", "embed": "" },
-		{ "route": "https://mapy.cz/s/luhemabega", "embed": "" },
-		{ "route": "https://mapy.cz/s/kugocukato", "embed": "" },
-		{ "route": "https://mapy.cz/s/kohadukoza", "embed": "" },
-		{ "route": "https://mapy.cz/s/kohobogovu", "embed": "" },
-		{ "route": "https://mapy.cz/s/ramupabeje", "embed": "" },
-		{ "route": "https://mapy.cz/s/ponotetalo", "embed": "" },
-		{ "route": "https://mapy.cz/s/gamejadazo", "embed": "" },
-		{ "route": "https://mapy.cz/s/dupacezaco", "embed": "" },
-		{ "route": "https://mapy.cz/s/bojaterogu", "embed": "" }
+		{
+			"route": "https://mapy.cz/s/cemajemezo",
+			"embed": "https://frame.mapy.cz/s/pukapuveko"
+		},
+		{
+			"route": "https://mapy.cz/s/kezusonepo",
+			"embed": "https://frame.mapy.cz/s/jotesarasu"
+		},
+		{
+			"route": "https://mapy.cz/s/lenojehufa",
+			"embed": "https://frame.mapy.cz/s/hunepobuha"
+		},
+		{
+			"route": "https://mapy.cz/s/jabunupama",
+			"embed": "https://frame.mapy.cz/s/jetelebulu"
+		},
+		{
+			"route": "https://mapy.cz/s/luhemabega",
+			"embed": "https://frame.mapy.cz/s/cuvacalote"
+		},
+		{
+			"route": "https://mapy.cz/s/kugocukato",
+			"embed": "https://frame.mapy.cz/s/javavetufe"
+		},
+		{
+			"route": "https://mapy.cz/s/kohadukoza",
+			"embed": "https://frame.mapy.cz/s/mefevucazo"
+		},
+		{
+			"route": "https://mapy.cz/s/kohobogovu",
+			"embed": "https://frame.mapy.cz/s/hutenuvaje"
+		},
+		{
+			"route": "https://mapy.cz/s/ramupabeje",
+			"embed": "https://frame.mapy.cz/s/gafeherera"
+		},
+		{
+			"route": "https://mapy.cz/s/ponotetalo",
+			"embed": "https://frame.mapy.cz/s/hurololatu"
+		},
+		{
+			"route": "https://mapy.cz/s/gamejadazo",
+			"embed": "https://frame.mapy.cz/s/rehapumake"
+		},
+		{
+			"route": "https://mapy.cz/s/dupacezaco",
+			"embed": "https://frame.mapy.cz/s/baderorave"
+		},
+		{
+			"route": "https://mapy.cz/s/bojaterogu",
+			"embed": "https://frame.mapy.cz/s/gedonepodo"
+		}
 	]
 }

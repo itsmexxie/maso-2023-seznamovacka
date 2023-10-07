@@ -6,3 +6,9 @@
 	background: var(--md-sys-color-surface-container);
 	color: var(--md-sys-color-on-surface);
 }
+
+.pane-header {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}

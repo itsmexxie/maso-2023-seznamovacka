@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@material/web": "^1.0.0",
+    "axios": "^1.5.1",
     "html5-qrcode": "^2.3.8",
     "pinia": "^2.1.6",
     "sass": "^1.69.0",
