@@ -2,31 +2,31 @@
 	"startTime": 54000,
 	"games": [
 		{
-			"name": "Squid Game",
+			"name": "Egg Hunt",
 			"location": "Újezd - Alej obětí totality"
 		},
 		{
-			"name": "Skládání Písmenek",
+			"name": "Židličkovaná",
 			"location": "Kampa - Socha sedící dívky"
 		},
 		{
-			"name": "Lovení Mincí",
+			"name": "Dáma",
 			"location": "Na Kampě - Červená Sedma"
 		},
 		{
-			"name": "Židličkovaná",
+			"name": "Lovení Mincí",
 			"location": "Park Cihelná - Fontána"
 		},
 		{
-			"name": "Dáma",
+			"name": "Kvíz",
 			"location": "Valdštejnská Zahrada"
 		},
 		{
-			"name": "Egg Hunt",
+			"name": "Skládání Písmenek",
 			"location": "Malostranské Nám - Sloup Nejsv. Trojice"
 		},
 		{
-			"name": "Kvíz",
+			"name": "Squid Game",
 			"location": "Helichova - Pítko"
 		}
 	],
