@@ -1,7 +1,10 @@
 <template>
 	<TopAppBar :enable-back="true"></TopAppBar>
 	<div class="content">
-		<h2>{{ AppConfig.games[parseInt(gameIndex?.toString()!)] }}</h2>
+		<h2>{{ AppConfig.games[parseInt(gameIndex?.toString()!)].name }}</h2>
+		<div class="container-success">
+			<p>Hra zaznamenána!</p>
+		</div>
 	</div>
 </template>
 
@@ -19,4 +22,14 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.container-success {
+	border-radius: 12px;
+	background: var(--md-sys-color-success-container);
+	padding: 16px;
+}
+
+.container-success > p {
+	margin: 0;
+}
+</style>

@@ -1,22 +1,34 @@
 {
 	"startTime": 54000,
 	"games": [
-		"Squid Game",
-		"Skládání Písmenek",
-		"Lovení Mincí",
-		"Židličkovaná",
-		"Dáma",
-		"Egg Hunt",
-		"Kvíz"
-	],
-	"locations": [
-		"Újezd - Alej obětí totality",
-		"Kampa - Socha sedící dívky",
-		"Na Kampě - Červená Sedma",
-		"Park Cihelná - Fontána",
-		"Valdštejnská Zahrada",
-		"Malostranské Nám - Sloup Nejsv. Trojice",
-		"Helichova - Pítko"
+		{
+			"name": "Squid Game",
+			"location": "Újezd - Alej obětí totality"
+		},
+		{
+			"name": "Skládání Písmenek",
+			"location": "Kampa - Socha sedící dívky"
+		},
+		{
+			"name": "Lovení Mincí",
+			"location": "Na Kampě - Červená Sedma"
+		},
+		{
+			"name": "Židličkovaná",
+			"location": "Park Cihelná - Fontána"
+		},
+		{
+			"name": "Dáma",
+			"location": "Valdštejnská Zahrada"
+		},
+		{
+			"name": "Egg Hunt",
+			"location": "Malostranské Nám - Sloup Nejsv. Trojice"
+		},
+		{
+			"name": "Kvíz",
+			"location": "Helichova - Pítko"
+		}
 	],
 	"routes": [
 		[0, 1, 2, 3, 4, 5, 6],

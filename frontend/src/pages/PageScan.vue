@@ -40,18 +40,22 @@ function scanSuccessCallback(text: string) {
 			if (appState.loggedIn) {
 				let gameIndex = parseInt(qrCode.data);
 
-				appState.collectGame(gameIndex);
+				if (!appState.getGames.includes(gameIndex)) {
+					appState.collectGame(gameIndex);
 
-				let collectedGamesLS: number[] = localStorage.getItem("MASO_COLLECTED_GAMES")?.split(";").map(x => parseInt(x)) ?? [];
-				collectedGamesLS.push(gameIndex);
-				localStorage.setItem("MASO_COLLECTED_GAMES", collectedGamesLS.join(";"));
+					let collectedGamesLS: number[] = localStorage.getItem("MASO_COLLECTED_GAMES")?.split(";").map(x => parseInt(x)) ?? [];
+					collectedGamesLS.push(gameIndex);
+					localStorage.setItem("MASO_COLLECTED_GAMES", collectedGamesLS.join(";"));
 
-				axios.post("https://maso-2023.jiri.workers.dev/visits", {
-					teamId: appState.teamId,
-					stationId: gameIndex
-				});
+					axios.post("https://maso-2023.jiri.workers.dev/visits", {
+						teamId: appState.teamId,
+						stationId: gameIndex
+					});
+				}
 
 				router.push(`/game?n=${gameIndex}`);
+			} else {
+				router.push("/team/info");
 			}
 			break;
 
@@ -71,7 +75,7 @@ function closeScanner() {
 onMounted(() => {
 	qrCodeScanner = new Html5QrcodeScanner("qr-code-scanner", {
 		fps: 10,
-		qrbox: 250,
+		qrbox: window.innerWidth - 48,
 	}, true);
 	qrCodeScanner.render(scanSuccessCallback, () => { });
 });

@@ -9,7 +9,7 @@
 			<tbody>
 				<tr v-for="(routeSegment, index) in AppConfig.routes[appState.teamId]">
 					<td>{{ calculateTime(AppConfig.startTime + index * 900) }}</td>
-					<td>{{ AppConfig.locations[routeSegment] }}</td>
+					<td>{{ AppConfig.games[routeSegment].location }}</td>
 				</tr>
 			</tbody>
 		</table>

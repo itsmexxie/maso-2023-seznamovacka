@@ -18,7 +18,7 @@ body {
 
 #app {
 	width: 100vw;
-	background: var(--md-sys-color-surface-dim);;
+	background: var(--md-sys-color-surface-dim);
 	color: var(--md-sys-color-on-surface);
 	font-family: var(--md-ref-typeface-brand);
 }

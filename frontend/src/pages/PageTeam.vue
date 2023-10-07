@@ -1,11 +1,15 @@
 <template>
 	<TopAppBar :enable-back="false"></TopAppBar>
-	<div v-if="appState.isLoggedIn" class="content">
+	<div v-if="appState.getGames.length >= 7" class="content">
+		<h3>A teď honem zpátky na MatFyz!</h3>
+		<p>Samozřejmě opatrně...</p>
+	</div>
+	<div v-else-if="appState.isLoggedIn" class="content">
 		<h2>Tým #{{ appState.teamId + 1 }}</h2>
 		<RouterView></RouterView>
 	</div>
 	<div v-else class="content">
-		<p>Naskenujte QR kód vašeho týmu pro přihlášení!</p>
+		<h3>Naskenujte QR kód vašeho týmu pro přihlášení!</h3>
 	</div>
 	<div id="fab">
 		<md-fab variant="primary" @click="goToScan()">
@@ -41,6 +45,10 @@ function goToScan() {
 </script>
 
 <style scoped>
+.content {
+	min-height: calc(100vh - 64px - 80px)
+}
+
 #fab {
 	position: fixed;
 	bottom: calc(16px + 80px);
