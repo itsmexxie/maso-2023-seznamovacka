@@ -25,11 +25,14 @@ import NavigationBar from '../components/NavigationBar.vue';
 const appState = useAppState();
 
 onMounted(() => {
-	if (localStorage.getItem("MASO_TEAM_ID")) {
+	if (!appState.loggedIn && localStorage.getItem("MASO_TEAM_ID")) {
 		appState.login(parseInt(localStorage.getItem("MASO_TEAM_ID")!));
-	}
 
-	router.push("/team/info");
+		let collectedGamesLS: number[] = localStorage.getItem("MASO_COLLECTED_GAMES")?.split(";").map(x => parseInt(x)) ?? [];
+		if (appState.getGames != collectedGamesLS) {
+			appState.setGames(collectedGamesLS);
+		}
+	}
 });
 
 function goToScan() {

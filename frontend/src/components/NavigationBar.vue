@@ -3,7 +3,7 @@
 		<md-icon-button @click="navigateTo('/team/info')">
 			<md-icon>home</md-icon>
 		</md-icon-button>
-		<md-icon-button @click="navigateTo('/team/tasks')">
+		<md-icon-button @click="navigateTo('/team/games')">
 			<md-icon>list</md-icon>
 		</md-icon-button>
 		<md-icon-button @click="navigateTo('/team/map')">
